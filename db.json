@@ -1,0 +1,27 @@
+[
+    {
+        "userId": "sampleid1",
+        "userName": "beili",
+        "displayName": "Beili",
+        "friends": ["sampleid2", "sampleid3"],
+        "receivedFriendRequests": [],
+        "sentFriendRequest": [],
+    },
+    {
+        "userId": "sampleid2",
+        "userName": "claizel",
+        "displayName": "Claizel",
+        "friends": ["sampleid1"],
+        "receivedFriendRequests": ["sampleid3"],
+        "sentFriendRequest": [],
+    },
+    {
+        "userId": "sampleid3",
+        "userName": "coubeili",
+        "displayName": "Coubeili",
+        "friends": ["sampleid1"],
+        "receivedFriendRequests": [],
+        "sentFriendRequest": ["sampleid2"],
+    }
+]
+
